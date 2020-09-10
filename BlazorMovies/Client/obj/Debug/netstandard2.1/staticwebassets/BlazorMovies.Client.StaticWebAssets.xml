@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\Downloads\Edu\Programming in Blazor - ASP.NET Core 3.1 2020-5\0. Project\BlazorMovies\BlazorMovies\Client\bin\Debug\netstandard2.1\wwwroot\" />
-  <ContentRoot BasePath="_content/Tewr.Blazor.FileReader" Path="C:\Users\Dr Radev\.nuget\packages\tewr.blazor.filereader\2.0.0.20242\build\..\staticwebassets\" />
-</StaticWebAssets>
