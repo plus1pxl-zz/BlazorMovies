@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+        "projectName": "BlazorMovies.Client",
+        "projectPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+        "packagesPath": "C:\\Users\\Dr Radev\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dr Radev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+                "projectPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.21.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[2.0.0.20242, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
+        "projectName": "BlazorMovies.Server",
+        "projectPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
+        "packagesPath": "C:\\Users\\Dr Radev\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dr Radev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
+                "projectPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Client\\BlazorMovies.Client.csproj"
+              },
+              "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+                "projectPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[2.0.0.20242, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "projectName": "BlazorMovies.Shared",
+        "projectPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "packagesPath": "C:\\Users\\Dr Radev\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\Edu\\Programming in Blazor - ASP.NET Core 3.1 2020-5\\0. Project\\BlazorMovies\\BlazorMovies\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dr Radev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[2.0.0.20242, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
