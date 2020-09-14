@@ -1,12 +1,11 @@
 ﻿@typeparam T
 
-@*<CustomTypeahead SearchMethod="@((string searchText) => SearchMethod(searchText))"
-                 ValueChanged="@((T item) => SelectedElement(item))"
->
+<CustomTypehead SearchMethod="@((string searchText) => SearchMethod(searchText))"
+                ValueChanged="@((T item) => SelectedElement(item))">
     <ResultTemplate>
         @MyResultTemplate(context)
     </ResultTemplate>
-</CustomTypeahead>*@
+</CustomTypehead>
 
 <ul class="list-group">
     @foreach (var item in SelectedElements)

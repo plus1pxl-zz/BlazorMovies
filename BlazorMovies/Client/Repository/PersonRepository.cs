@@ -1,6 +1,7 @@
 ﻿using BlazorMovies.Client.Helpers;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using BlazorMovies.Shared.Entities;
@@ -31,9 +32,23 @@ namespace BlazorMovies.Client.Repository
             throw new NotImplementedException();
         }
 
-        public Task<List<Person>> GetPeopleByName(string name)
+        public async Task<List<Person>> GetPeople()
         {
-            throw new NotImplementedException();
+            var response = await httpService.Get<List<Person>>(url);
+            if (!response.Success)
+            {
+                throw new ApplicationException(await response.GetBody());
+            }
+            return response.Response;
+        }
+        public async Task<List<Person>> GetPeopleByName(string name)
+        {
+            var response = await httpService.Get<List<Person>>($"{url}/search/{name}");
+            if (!response.Success)
+            {
+                throw new ApplicationException(await response.GetBody());
+            }
+            return response.Response;
         }
 
         public Task<Person> GetPersonById(int id)
