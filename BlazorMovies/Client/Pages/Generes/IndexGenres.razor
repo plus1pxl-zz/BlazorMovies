@@ -1,14 +1,14 @@
 ﻿@page "/genres"
 @inject IGenreRepository genreRepository
 
-<h3>IndexGenres</h3>
+<h3>Index Genres</h3>
 
 <div class="form-group">
     <a class="btn btn-info" href="genre/create">New Genre</a>
 </div>
 
 <GenericList List="Genres">
-    <WholeListTmeplate>
+    <WholeListTemplate>
         <table class="table table-striped">
             <thead>
             <tr>
@@ -29,9 +29,11 @@
             }
             </tbody>
         </table>
-    </WholeListTmeplate>
+    </WholeListTemplate>
 </GenericList>
+
 @code {
+
     List<Genre> Genres;
 
     protected override async Task OnInitializedAsync()
@@ -40,9 +42,9 @@
         {
             Genres = await genreRepository.GetGenres();
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            Console.WriteLine(e.Message);
+
         }
     }
 

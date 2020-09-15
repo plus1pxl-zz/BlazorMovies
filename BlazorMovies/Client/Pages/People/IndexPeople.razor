@@ -7,7 +7,7 @@
 </div>
 
 <GenericList List="People">
-    <WholeListTmeplate>
+    <WholeListTemplate>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -20,7 +20,7 @@
                 {
                     <tr>
                         <td>
-                            <a class="btn btn-success" href="/genre/edit/@item.Id">Edit</a>
+                            <a class="btn btn-success" href="/person/edit/@item.Id">Edit</a>
                             <button class="btn btn-danger" @onclick="@(() => DeletePerson(item.Id))">Delete</button>
                         </td>
                         <td>@item.Name</td>
@@ -28,7 +28,7 @@
                 }
             </tbody>
         </table>
-    </WholeListTmeplate>
+    </WholeListTemplate>
 </GenericList>
 @code {
     List<Person> People;

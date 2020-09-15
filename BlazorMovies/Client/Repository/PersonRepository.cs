@@ -51,14 +51,18 @@ namespace BlazorMovies.Client.Repository
             return response.Response;
         }
 
-        public Task<Person> GetPersonById(int id)
+        public async Task<Person> GetPersonById(int id)
         {
-            throw new NotImplementedException();
+            return await httpService.GetHelper<Person>($"{url}/{id}");
         }
 
-        public Task UpdatePerson(Person person)
+        public async Task UpdatePerson(Person person)
         {
-            throw new NotImplementedException();
+            var response = await httpService.Put(url, person);
+            if (!response.Success)
+            {
+                throw new ApplicationException(await response.GetBody());
+            }
         }
     }
 }

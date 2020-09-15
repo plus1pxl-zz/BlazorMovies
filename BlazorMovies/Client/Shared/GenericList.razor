@@ -2,18 +2,16 @@
 
 @if (List == null)
 {
-
     @if (NullTemplate != null)
     {
         @NullTemplate
     }
     else
     {
-        //Default Content
-        <img src="https://i.stack.imgur.com/MEBIB.gif" />
+        // Default Content
+        <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" />
     }
 }
-
 else if (List.Count == 0)
 {
     @if (EmptyTemplate != null)
@@ -22,28 +20,25 @@ else if (List.Count == 0)
     }
     else
     {
-        //Default Content
-        <text> There are no records to show </text>
+        // Default Content
+        <text>There are no records to show</text>
     }
 }
-
 else
 {
     @if (ElementTemplate != null)
     {
         @foreach (var element in List)
         {
-            @ElementTemplate(element);
+            @ElementTemplate(element)
         }
     }
     else
     {
-        @WholeListTmeplate
+        @WholeListTemplate
     }
-    
-
-
 }
+
 
 
 @code {
@@ -57,7 +52,7 @@ else
     public RenderFragment<TItem> ElementTemplate { get; set; }
 
     [Parameter]
-    public RenderFragment WholeListTmeplate { get; set; }
+    public RenderFragment WholeListTemplate { get; set; }
 
     [Parameter]
     public List<TItem> List { get; set; }
